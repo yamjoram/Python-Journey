@@ -1,0 +1,12 @@
+Given two strings s and t, return true if t is an anagram of s, and false otherwise.
+
+def is_anagram(s, t):
+  if len(s) != len(t):
+    return False
+  countS, countT = {},{}
+  for i in range(len(s)):
+    countS[s[i]] = countS.get(s[i],0)
+    countT[t[i]] = countT.get(t[i],0)
+  if countS == countT:
+      return True
+is_anagram("anagram", "aaamrgn")
