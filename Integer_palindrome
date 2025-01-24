@@ -1,0 +1,10 @@
+def is_palindrome(num):
+  if num < 0:
+    return False
+  result = 0
+  original = num
+  while num > 0:
+    rem = num % 10
+    result = result * 10 + rem
+    num = num // 10
+  return result == original
