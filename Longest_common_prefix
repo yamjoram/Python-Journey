@@ -1,0 +1,15 @@
+Write a function to find the longest common prefix string amongst an array of strings.
+
+If there is no common prefix, return an empty string ""
+
+
+def longest_common_prefix(str):
+  str.sort()
+  empty_str = ""
+  for i in range(min(len(first_word), len(last_word))):
+    if first_word[i] == last_word[i]:
+      empty_str += first_word[i]
+    else:
+      break
+  return empty_str
+longest_common_prefix(["yahoo", "yak", "yay", "yaah"])
