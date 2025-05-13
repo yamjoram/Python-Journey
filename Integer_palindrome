@@ -1,3 +1,7 @@
+
+Question : to find if num is pakindrome or not
+
+
 def is_palindrome(num):
   if num < 0:
     return False
