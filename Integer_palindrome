@@ -1,5 +1,4 @@
 
-Question : to find if the num is palindrome or not
 
 
 def is_palindrome(num):
