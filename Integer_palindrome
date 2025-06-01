@@ -1,5 +1,4 @@
 
-questions:
 
 def is_palindrome(num):
   if num < 0:
