@@ -1,5 +1,5 @@
 
-Questions : Write a program to print ASCII value of a .
+Questions : Write a program to print ASCII value 
 
 
 character = input("Enter the character")
